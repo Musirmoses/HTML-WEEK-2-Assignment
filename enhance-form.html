@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEEK 2 - Enhanced HTML Elements</title>
+</head>
+<body>
+    <h1>Definition Lists</h1>
+    <dl>C
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language for the web</dd>
+    </dl>
+    <h2>Nested Lists</h2>
+    <ul>
+        <li>Fruits
+            <ol>
+                <ol type ="a">
+                    <li>Apple</li>
+                    <ul>
+                        <li>Red Apple</li>
+                        <li>Green Apple</li>
+                    </ul>
+                    <li>Banana</li>
+                    <li>Cherry</li>
+                
+            </ol>
+        </li>
+        <li>Vegetables
+            <ol type ="i">
+                <li>Carrot</li>
+                <li>Broccoli</li>
+                <li>Spinach</li>
+            </ol>
+        </li>
+    </ul>
+    <h2>Images</h2>
+    <img src="pexels-barbaros-kaya-321163118-13710029.jpg" alt="Set up for Live Streaming" width="300" height="150">
+    <img src="Screenshot 2025-07-22 125830.png" alt="PLP Scholarship" width="150" height="150">
+    <h2>Videos</h2>
+    <video width="320" height="240" controls>
+        <source src="For Edits.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h2>Audio</h2>
+    <audio controls>
+    
+        <source src="Video by nba [TubeRipper.com].mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+    <h2>Tables</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>$1.00</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>$0.50</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Cherry</td>
+            <td>$2.00</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Carrot</td>
+            <td>$0.75</td>
+            <td>30</td>
+        </tr>
+    </tbody>
+</table>
+    <h2>Registration Form</h2>
+    <form action="Location where data is sent" method="how data is transmitted" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required minlength="3" placeholder="Your name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required autocomplete="on">
+            <br>
+            <label for="profile-picture">Profile Picture:</label>
+            <input type="file" id="profile-picture" name="profile-picture" accept="image/*">
+            <br>
+            <label for="bio">Bio:</label>
+            <textarea id="bio" name="bio" rows="4" cols="50"></textarea>
+            <br>
+        </fieldset>
+        <fieldset>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+        </select>
+    </fieldset>
+    <input type="submit" value="Submit">
+    </form>
+  <footer>
+    <p>&copy; 2025 Moses Odhiambo. All rights reserved.</p>  
+</body>
+</html>
